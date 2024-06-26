@@ -100,3 +100,96 @@ nav ul li a{
 footer{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
+
+/* blog section here*/
+.blog-section{
+    padding: 50px;
+    height: 550px;
+}
+
+.col{
+    width: 33.33%;
+    float: left;
+    
+
+}
+.blog{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(100 100 111 / 23%) 0px 7px 29px 0px;
+}
+.blog img{
+    max-width: 250px;
+    width: 100%;
+    padding-top: 50px;
+    
+}
+.blog h3{
+    color: #3b506c;
+    font-size: 30px;
+
+}
+.blog p{
+    font-size: 17px;
+    color: #3b506c;
+}
+
+.red{
+    background-color: rgba(255, 0, 0, 0.103);
+}
+.blue{
+    background-color: rgba(0, 128, 0, 0.116);
+
+}
+.yellow {
+    background-color: rgba(255, 255, 0, 0.126);
+}
+
+.blog:hover{
+    transition: all 0.5s ease;
+    background-color:rgba(234, 0, 255, 0.144);
+    box-shadow: rgba(53, 53, 152, 0.363) 0px 7px 29px 0px;
+
+}
+
+/* footer start*/
+
+footer{
+    background-color: white;
+    padding: 50px 0 300px 0;
+}
+.footer-item{
+    width: 25%;
+    float: left;
+
+}
+
+.footer-item h3{
+    font-size: 25px;
+    text-align: left;
+    color: #3b506c;
+}
+.footer-item ul{
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+
+}
+.footer-item ul a{
+    text-decoration: none;
+
+}
+
+.footer-item ul li{
+    font-size: 20px;
+    line-height: 30px;
+    color: #3b506c;
+
+}
+
+.apple{
+    color: red;
+    text-align: center;
+}
